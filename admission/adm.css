@@ -1,0 +1,89 @@
+#adm-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    width: 100%;
+}
+
+#adm-container h3 {
+    font-family: 'courier', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 0;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+#adm-container>div {
+    background: #eee;
+    padding: 0.5em;
+}
+
+#adm-container>div:nth-child(odd) {
+    background: #ddd;
+}
+
+#adm-container .box1 {
+    grid-row: 1;
+    grid-column: 1/span end;
+}
+
+#adm-container .flex-box1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#adm-container .flex-box1 .box1-1 {
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+#adm-containe .box2 {
+    grid-row: 2;
+    grid-column: 1/span end;
+}
+
+#adm-container .flex-box2 {
+    display: flex;
+    justify-content: center;
+}
+
+#adm-container .flex-box2 .adm-letter {
+    margin: 10px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#adm-container .flex-box2 .adm-letter button {
+    background-color: #035e73;
+    border-radius: 10px;
+    font-size: 1.5em;
+    margin: 5px;
+    font-family: 'courier', sans-serif;
+    font-weight: 650;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+}
+
+#adm-container .flex-box2 .adm-letter button:hover {
+    cursor: pointer;
+    background-color: rgba(3, 94, 115, 0.7);
+}
+
+#adm-container .box3 {
+    grid-row: 3;
+    grid-column: 1/span end;
+}
+
+#adm-container .box3 .flex-box3 {
+    display: flex;
+    justify-content: center;
+}

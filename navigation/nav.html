@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navigation</title>
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+</head>
+
+<body>
+    <nav>
+        <div id="logo">
+            <figure>
+                <img src="../images/logo.jpg">
+                <figcaption>MUNDIKA BOY'S</figcaption>
+            </figure>
+        </div>
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-1" class="toggle">Academic +</label>
+                <a href="#">Academic</a>
+                <input type="checkbox" id="drop-1" />
+                <ul>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Admission</a></li>
+                </ul>
+            </li>
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle">Departments +</label>
+                <a href="#">Departments</a>
+                <input type="checkbox" id="drop-2" />
+                <ul>
+                    <li><a href="#">Mathematics</a></li>
+                    <li><a href="#">Sciences</a></li>
+                    <li><a href="#">Humanities</a></li>
+                    <li><a href="#">Technicals</a></li>
+                    <li><a href="#">Boarding</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
