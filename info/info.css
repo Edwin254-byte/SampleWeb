@@ -60,5 +60,7 @@
     }
     #info-container .box1 .box1-1 dd{
         padding-left: 15px;
+    }#info-container .box1 .box1-1{
+        width: 70vw;
     }
 }
