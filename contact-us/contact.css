@@ -115,6 +115,7 @@
 @media all and (max-width: 768px) {
     #contact-container .box1-1{
         width: 70vw;
+        margin: 0;
     }
     #contact-container .box1-1 form {
         font-size: 1.2em;
