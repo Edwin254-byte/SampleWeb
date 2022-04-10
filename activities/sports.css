@@ -138,7 +138,12 @@
     #sports-container .flex-box1 .box1-1 {
         padding: 20px;
     }
-
+    #sports-container .flex-box1 .box1-1{
+        width: 80vw;
+    }
+    #sports-container .flex-box1 .box1-2{
+        width: 80vw;
+    }
     #sports-container .flex-box1 .box1-2 blockquote p {
         font-size: 1em;
         word-wrap: break-word;

@@ -129,6 +129,7 @@
         grid-column: 1/span end;
         padding-left: 35px;
         margin-bottom: 30px;
+        width: 80vw;
     }
 
     #home-container .box1-2 {
