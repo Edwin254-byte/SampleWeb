@@ -87,3 +87,26 @@
     display: flex;
     justify-content: center;
 }
+#adm-container .box3 .maps{
+    width: 60vw;
+    height: 400px;
+}
+#adm-container .box3 iframe{
+    width: 100%;
+    height: 100%;
+    margin: 15px;
+}
+
+@media all and (max-width:  768px){
+    #adm-container h3 {
+        font-size: 1.5em;
+    }
+    #adm-container .box1-1, .adm-letter{
+        padding: 25px;
+        line-height: 1.4em;
+    }
+    #adm-container .flex-box2 .adm-letter button {
+        font-size: 1.2em;
+        width: 200px;
+    }
+})

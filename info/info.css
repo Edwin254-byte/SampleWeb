@@ -41,3 +41,24 @@
     font-weight: 650;
     font-family: 'courier', sans-serif;
 }
+@media all and (max-width: 768px){
+    #info-container h3{
+        font-size: 1.5em;
+    }
+    #info-container .box1{
+        line-height: 1.4em;
+        padding: 25px;
+    }
+    #info-container .box1 .box1-1 {
+        padding: 15px;
+    }
+    #info-container .box1 .box1-1 ol{
+        padding: 0 30px;
+    }
+    #info-container .box1 .box1-1 ul{
+        padding-left: 15px;
+    }
+    #info-container .box1 .box1-1 dd{
+        padding-left: 15px;
+    }
+}

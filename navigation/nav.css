@@ -121,11 +121,13 @@ nav a {
 
 nav ul li ul li:hover {
     background: #59b9f0;
+    border-radius: 15px;
 }
 
 /* Background color change on Hover */
 nav a:hover {
     background-color: #59b9f0;
+    border-radius: 15px;
 }
 
 /* Hide Dropdowns by Default
@@ -199,6 +201,8 @@ li>a:only-child:after {
 
     .toggle:hover {
         background-color: #59b9f0;
+        border-radius: 10px;
+        margin: 0 5px;
     }
 
     /* Display Dropdown when clicked on Parent Lable */
@@ -224,6 +228,7 @@ li>a:only-child:after {
     nav a:hover,
     nav ul ul ul a {
         background-color: #59b9f0;
+        border-radius: 10px;
     }
 
     nav ul li ul li .toggle,

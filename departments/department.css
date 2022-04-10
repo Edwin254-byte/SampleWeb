@@ -95,3 +95,15 @@
     width: 55px;
     height: 50px;
 }
+@media all and (max-width: 768px){
+    #department-container h3{
+        font-size: 1.4em;
+    }
+    #department-container .flex-box1 .box1-2 blockquote p{
+        font-size: 1em;
+        word-wrap: break-word;
+    }
+    #department-container .box1-1{
+        font-size: 0.9em;
+    }
+}
