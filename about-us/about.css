@@ -1,3 +1,26 @@
+.my-audio {
+    background: linear-gradient(to right, rgb(8, 182, 217), rgb(49, 135, 50));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+span {
+    font-size: 2rem;
+    font-family: 'courier', sans-serif;
+    font-weight: 550;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 40vw;
+}
+audio{
+    margin: 15px 0;
+    width: 30vw;
+}
+
 #about-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -74,6 +97,10 @@
 }
 
 @media all and (max-width: 768px) {
+    span {
+        font-size: 1.5rem;
+    }
+
     #about-container h3 {
         font-size: 1.4em;
     }
